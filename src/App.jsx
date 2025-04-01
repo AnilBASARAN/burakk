@@ -1,16 +1,20 @@
 
 import './App.css'
 
-function App() {
+import Box1 from "./Box1.jsx";
+import Box2 from "./Box2.jsx";
+import Box3 from "./Box3.jsx";
+import Box4 from "./Box4.jsx";
 
-
+const App = () => {
   return (
     <>
-       
-     <h1>so ı made some changes,</h1>
-     <h1>lets see any of them worked</h1>
+      <Box1 />
+      <Box2 />
+      <Box3 />
+      <Box4 />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
