@@ -1,5 +1,5 @@
 
-import './index.css'
+import './App.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Box1 from "./Box1.jsx";
